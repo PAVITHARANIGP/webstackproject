@@ -14,6 +14,7 @@ import { DbContextProvider } from "./components/DbContext";
 function App() {
   // eslint-disable-next-line no-unused-vars
   const [isAuth, setIsAuth] = useState(false);
+  console.log("HEllo");
 
   return (
     <UserAuthContextProvider>
